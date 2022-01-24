@@ -6,7 +6,7 @@ doc = "\nA demo of how rounds work in oTree, in the context of 'matching pennies
 class C(BaseConstants):
     NAME_IN_URL = 'matching_pennies'
     PLAYERS_PER_GROUP = 2
-    NUM_ROUNDS = 4
+    NUM_ROUNDS = 10
     STAKES = cu(100)
     MATCHER_ROLE = 'Matcher'
     MISMATCHER_ROLE = 'Mismatcher'
